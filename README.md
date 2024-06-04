@@ -22,3 +22,7 @@ Logs can be inspected via:
 
 ![Screenshot from 2024-06-04 20-01-36](https://github.com/GeekyYouthsInfo/servepytorch--model-with-fastapi/assets/78595738/45c188d6-67bf-4190-be48-b5ecd643e789)
 
+
+![image](https://github.com/GeekyYouthsInfo/servepytorch--model-with-fastapi/assets/78595738/74f89105-940e-413a-806e-0fa86d44587b)
+
+
