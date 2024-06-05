@@ -14,6 +14,7 @@ In this example, we serve cataract detection  model using FastAPI for the backen
 ## Setup Instructions
 
 1. Clone the repository:
+   
 cd project
 
 Build and run the Docker containers:
@@ -23,6 +24,7 @@ Build and run the Docker containers:
 
 
 To visit the FastAPI documentation of the resulting service, visit http://localhost:8000/docs with a web browser.
+
 To visit the streamlit UI, visit http://localhost:8501.
 
 ## Endpoints
