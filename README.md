@@ -6,7 +6,17 @@ When developing simple APIs that serve machine learning models, it can be useful
 
 In this example, we serve cataract detection  model using FastAPI for the backend service and streamlit for the frontend service. docker compose orchestrates the two services and allows communication between them.
 
-To run the example in a machine running Docker and docker compose, run:
+## Requirements
+
+- Docker
+- Docker Compose
+
+## Setup Instructions
+
+1. Clone the repository:
+cd project
+
+Build and run the Docker containers:
 
       docker compose build
       docker compose up
@@ -14,6 +24,11 @@ To run the example in a machine running Docker and docker compose, run:
 
 To visit the FastAPI documentation of the resulting service, visit http://localhost:8000/docs with a web browser.
 To visit the streamlit UI, visit http://localhost:8501.
+
+## Endpoints
+
+    POST /predict/: Accepts an image file and returns the cataract prediction.
+
 
 Logs can be inspected via:
 
